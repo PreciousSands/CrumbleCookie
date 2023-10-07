@@ -1,0 +1,1 @@
+Battleship, but you guessed it, it's done in the form of cookies. Player will play against the computer each to try crumbling all of their opponents cookies first to win. No limit to tries, It's whoever cookies are crumbled  first , they lose. 
