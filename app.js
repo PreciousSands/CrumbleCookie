@@ -9,3 +9,17 @@
 // Creation of game
 // Creation of win and lose
 
+  /*----- constants -----*/
+
+
+  /*----- state variables -----*/
+
+
+  /*----- cached elements  -----*/
+
+
+  /*----- event listeners -----*/
+
+
+  /*----- functions -----*/
+
