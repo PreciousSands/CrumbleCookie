@@ -1,11 +1,8 @@
 // Implement landing page (later with audion on page)
-// Start button function implementation
-// Redirection to difficulty level page
-// Easy , Medium and Hard level button function implementation
+//  ^^^^ This was done in the index.html
+// Start button function implementation 
+// Navigation to game page (second html page) implementation
 // Creation of grid
-// Creation of easy level
-// Creation of Meduim Level
-// Creation of Hard level
 // Creation of game
 // Creation of win and lose
 
@@ -19,7 +16,15 @@
 
 
   /*----- event listeners -----*/
+  document.addEventListener("DOMContentLoaded", function() {
+    const startButton = document.getElementById("startButton");
+    const secondPageContent = document.getElementById("secondPageContent");
 
+    startButton.addEventListener("click", function() {
+        window.location.href = "second_page.html";
+      });
+      });
+  
+ 
 
   /*----- functions -----*/
-
