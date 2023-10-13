@@ -1,0 +1,74 @@
+.cookie-container {
+    width: 600px;
+    height: 200px;
+    margin: 30px 10;
+    background-color:none;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.cruncher {
+    background-image: url(./images/cruncher-cookie-preview.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 10px;
+}
+.mac-o-dame {
+    background-image: url(./images/mac-o-dame_cookie_whole-preview.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 10px;
+}
+.swirler {
+    background-image: url(./images/swirler_cookie_whole-preview.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 10px;
+}
+.nutty-whip {
+    background-image: url(./images/nutty-whip-preview.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 10px;
+}
+.crumbler {
+    background-image: url(./images/crumbler-cookie.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 10px;
+    background-size: 100% 100%;
+}
+.cruncher-preview {
+    width: 30px;
+    height:50px;
+    margin: 3px;
+}
+.mac-o-dame-preview {
+    width: 50px;
+    height:80px;
+    margin: 3px;
+}
+.swirler-preview {
+    width: 40px;
+    height:90px;
+    margin: 3px;
+}
+.nutty-whip-preview {
+    width: 40px;
+    height: 100px;
+    margin: 3px;
+}
+.crumbler-preview {
+    width: 50px;
+    height:100px;
+    margin: 3px;
+}
+.cookie {
+    width: 100px;
+    height: auto;
+}
