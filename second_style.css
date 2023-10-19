@@ -1,105 +1,87 @@
 #gamesboard-container {
-    width: 1650px;
-    padding-top: 60px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
 }
 
+
 .game-board {
-    width: 650px;
-    height: 550px;
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.circle {
-    width: 65px;
-    height: 55px;
-    border: solid 1px black;
-    box-sizing: border-box;
+.block {
+    width: 20px;
+    height: 20px;
+    /* border: solid 1px black;
+    box-sizing: border-box; */
 }
 
+
+
+
 .cookie-container {
-    width: 600px;
-    height: 200px;
-    margin: 30px 10;
-    background-color: none;
+    width: 220px;
+    height: 60px;
+    margin: 30px 0;
+    background-color: yellow;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .cruncher {
-    background-image: url(./images/cruncher-cookie-preview.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 10px;
+    background-color: purple;
 }
 
 .mac-o-dame {
-    background-image: url(./images/mac-o-dame_cookie_whole-preview.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 10px;
+    background-color: aqua;
 }
 
 .swirler {
-    background-image: url(./images/swirler_cookie_whole-preview.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 10px;
+    background-color: red;
 }
 
 .nutty-whip {
-    background-image: url(./images/nutty-whip-preview.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 10px;
+    background-color: green;
 }
 
 .crumbler {
-    background-image: url(./images/crumbler-cookie.png);
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 10px;
-    background-size: 100% 100%;
+    background-color: brown;
 }
 
 .cruncher-preview {
-    width: 30px;
-    height: 50px;
+    width: 20px;
+    height: 10px;
     margin: 3px;
 }
 
 .mac-o-dame-preview {
-    width: 50px;
-    height: 80px;
+    width: 30px;
+    height: 10px;
     margin: 3px;
 }
 
 .swirler-preview {
-    width: 40px;
-    height: 90px;
+    width: 30px;
+    height: 10px;
     margin: 3px;
 }
 
 .nutty-whip-preview {
     width: 40px;
-    height: 100px;
+    height: 10px;
     margin: 3px;
 }
 
 .crumbler-preview {
     width: 50px;
-    height: 100px;
+    height: 10px;
     margin: 3px;
 }
 
-.cookie {
+/* .cookie {
     width: 100px;
     height: auto;
-}
+}  */
